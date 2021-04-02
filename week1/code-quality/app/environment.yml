@@ -1,0 +1,14 @@
+name: code-quality
+channels: 
+  - default
+dependencies:
+  - python=3.7.5
+  - pandas=1.1.0
+  - pip
+  - pip:
+      - codetiming==1.2.0
+      - requests
+      - pylint
+      - pyflakes
+      - pycodestyle
+      
